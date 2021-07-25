@@ -1,14 +1,10 @@
 <template>
-  <h1>Welcome</h1>
-  This page is:
-  <ul>
-    <li>Rendered to HTML.</li>
-    <li>Interactive. <Counter /></li>
-  </ul>
+  <div class="dark:bg-gray-700">
+    <div class="container mx-auto py-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-purple-400">
+      <span class="font-logo bg-clip-text text-5xl text-transparent bg-gradient-to-r from-blue-300 to-purple-400">Picornell.dev</span>
+    </div>
+  </div>
 </template>
 
-<script lang="ts">
-import Counter from './_components/Counter.vue'
-const components = { Counter }
-export default { components }
+<script lang="ts" setup>
 </script>
